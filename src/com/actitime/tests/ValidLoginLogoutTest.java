@@ -17,6 +17,8 @@ public class ValidLoginLogoutTest extends BaseTest
 		
 		String loginTitle=ExcelData.getData("./data/input.xlsx", "login", 1, 2);
 		String user=ExcelData.getData("./data/input.xlsx", "login", 1, 0);
+		
+		
 		String pass= ExcelData.getData("./data/input.xlsx", "login", 1, 1);
 		String timeTrackTitle=ExcelData.getData("./data/input.xlsx", "enterTimeTrack", 1, 0);
 	
